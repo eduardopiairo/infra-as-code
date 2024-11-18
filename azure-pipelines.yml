@@ -22,3 +22,7 @@ steps:
 - task: TerraformInstaller@1
   inputs:
     terraformVersion: '1.9.8'
+  displayName: 'Install Terraform'
+
+- script: terraform -v
+  displayName: 'Print Terraform version'
