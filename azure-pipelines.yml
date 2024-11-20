@@ -5,6 +5,7 @@
 
 trigger:
 - main
+- feature/*
 
 pool:
   vmImage: ubuntu-latest
@@ -17,3 +18,11 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: TerraformInstaller@1
+  inputs:
+    terraformVersion: '1.9.8'
+  displayName: 'Install Terraform'
+
+- script: terraform -v
+  displayName: 'Print Terraform version'
