@@ -38,3 +38,4 @@ terraform.rc
 
 ## Azure subscription config
 azure.txt
+azure/dev/.terraform.lock.hcl
