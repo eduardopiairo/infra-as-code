@@ -50,6 +50,7 @@ on:
     - main
     - feature/*
   pull_request:
+    branches:
     - main
 
 permissions:
