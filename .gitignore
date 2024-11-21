@@ -35,3 +35,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+## Azure subscription config
+azure.txt
+azure/dev/.terraform.lock.hcl
