@@ -31,7 +31,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: azure/dev
+        working-directory: azure/control-plane
 
     steps:
     # Checkout the repository to the GitHub Actions runner
