@@ -1,7 +1,7 @@
 # This workflow create the infrastrucure resources for the DEV environment
 
 
-name: 'Terraform'
+name: 'Terraform Control Plane'
 
 on:
   push:
@@ -9,7 +9,8 @@ on:
     - main
     - feature/*
     paths:
-      - azure/dev/*
+      - azure/control-plane/*
+      - .github/workflows/terraform-control-plane.yml
   pull_request:
     branches:
     - main

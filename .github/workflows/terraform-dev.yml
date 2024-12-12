@@ -9,7 +9,7 @@ on:
     - main
     - feature/*
     paths:
-      - azure/controlplane/*
+      - azure/dev/*
   pull_request:
     branches:
     - main
