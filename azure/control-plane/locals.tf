@@ -2,7 +2,7 @@ locals {
     # Resource Group
     location        = "West Europe"
     resource_group  = "rg-aks-control-plane00"
-    env             = "sandbox"
+    env             = "development"
 
 
     # Tags
