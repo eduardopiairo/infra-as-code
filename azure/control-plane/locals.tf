@@ -10,7 +10,7 @@ locals {
         {
         Environment     = local.env
         CreationOrigin  = "terraform"
-        Project         = "idp-control-plane"     
+        Project         = "idp"     
         }
     )
 
