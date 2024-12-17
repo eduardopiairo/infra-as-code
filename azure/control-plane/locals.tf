@@ -25,4 +25,6 @@ locals {
     vm_size                = "Standard_D2ds_v5"
     subnet_id              = "/subscriptions/5ad4aba7-f6b9-40cb-987d-5efbd3ba320d/resourceGroups/rg-aks-test/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/aks-subnet"
 
+    role_based_access_control_enabled = true
+
 }
